@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/ileadorin/ci_cd_lab:latest
+          image: ghcr.io/ileadorin/ci_cd_lab:sha256:8d4329c8dc41a9204e3e218c9559703d8f11f60db40f6ff6e0e72fe136243756
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
